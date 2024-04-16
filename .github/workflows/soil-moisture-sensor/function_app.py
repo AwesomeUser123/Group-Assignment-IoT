@@ -5,8 +5,8 @@ import logging
 from azure.iot.hub import IoTHubRegistryManager
 from azure.iot.hub.models import CloudToDeviceMethod
 app = func.FunctionApp()
-CONNECTION_STRING = "HostName=PlantManager.azure-devices.net;SharedAccessKeyName=service;SharedAccessKey=PXXIxkimG0ubmJ/z1/wByylingHiNDdxHAIoTJz9dB0="
-DEVICE_ID = "Moisture-sensor"
+CONNECTION_STRING = "<service connect string in IoT hub shared access policies>"
+DEVICE_ID = "<device-id>"
 METHOD_NAME = "relay_on"
 METHOD_PAYLOAD = ""
 
